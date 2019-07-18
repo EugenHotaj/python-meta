@@ -2,9 +2,6 @@
 
 N.B.: The code in this file is not valid Python and will not run with the
 default Python interpreter. 
-
-To Run:
-    python3 -m preprocess.py test.py
 """
 
 def make_rectangle(x, y, width, height=width):
