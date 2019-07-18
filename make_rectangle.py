@@ -12,8 +12,8 @@ def make_rectangle(x, y, width, height=width):
     return ((x, y), (x + width, y), (x + width, y + height), (x,  y + height))
 
 if __name__ == '__main__':
-    square = make_rectangle(0, 0, 100)
     rectangle = make_rectangle(0, 0, 100, 200)
+    square = make_rectangle(0, 0, 100)
 
-    print("Square:", square)
     print("Rectangle:", rectangle)
+    print("Square:", square)
